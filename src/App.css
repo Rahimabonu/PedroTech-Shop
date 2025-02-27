@@ -68,6 +68,6 @@ header{
   min-width: 800px;
 }
 
-.product-name{
+.product-name, .product-price{
   text-align: center;
 }
