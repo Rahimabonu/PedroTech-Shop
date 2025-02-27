@@ -71,3 +71,7 @@ header{
 .product-name, .product-price{
   text-align: center;
 }
+.product-btn:hover{
+  background-color: black;
+  color: white;
+}
