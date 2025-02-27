@@ -21,6 +21,7 @@ header{
 
 .nav-link{
   color: white;
+  padding: 0.35rem 0.5rem;
 }
 
 /* ======= shop ======= */
@@ -29,16 +30,44 @@ header{
   margin:  1rem 0;
 }
 
-.shop-container, .product{
+/* .shop-container {
   max-width: 1200px;
   margin:1rem auto;
   display: flex;
-  flex-wrap: nowrap;
-}
+} */
 .cart-container{
+  max-width: 1200px;
   margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .product-img{
-  max-width: 250px;
+  width: 100%;
+}
+
+.product-btn{
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 0.35rem 0.5rem;
+  background-color: white;
+  border-radius: 20px;
+  display: block;
+}
+
+.product{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop-container{
+  margin: 1rem auto;
+  min-width: 800px;
+}
+
+.product-name{
+  text-align: center;
 }
